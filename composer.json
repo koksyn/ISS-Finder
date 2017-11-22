@@ -1,0 +1,22 @@
+{
+    "name": "mateusz/zadanie-php",
+    "description": "ISS",
+    "require": {
+        "guzzlehttp/guzzle": "6.2.x"
+    },
+    "autoload": {
+        "classmap": [
+            "Controllers/",
+            "Engine/",
+            "Models/",
+            "Resolvers/",
+            "Services/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Mateusz Palichleb",
+            "email": "mateusz1p@gmail.com"
+        }
+    ]
+}

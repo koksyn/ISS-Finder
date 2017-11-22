@@ -1,0 +1,103 @@
+/*
+    -------  Structure  -------
+*/
+html, body {
+    height: 100%;
+}
+
+section.bg {
+    position: fixed;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    box-shadow: inset 0px -2px 467px -10px rgba(112,20,158,1);
+    background-color: rgba(0, 152, 255, 0.85);
+}
+
+section.content {
+    padding-top: 4.5rem;
+}
+
+
+/*
+    -------  Content elements  -------
+*/
+.jumbotron {
+    background-color: rgb(255, 255, 255);
+    padding: 2rem 2rem !important;
+}
+
+.jumbotron h2 small {
+    margin-left: 15px;
+    font-size: 17px;
+    color: #988d87;
+}
+
+.jumbotron .table {
+    margin-top: 30px;
+    width: 90%;
+}
+
+#map {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 100%; height: 500px;
+    margin-top: 30px;
+}
+
+
+/*
+    -------  About  -------
+*/
+.about > div {
+    margin-bottom: 45px !important;
+}
+
+.about .panel {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.about .panel .btn {
+    font-weight: 400 !important;
+}
+
+.about .panel-default {
+    border-color: #ddd;
+}
+
+.about .panel-heading {
+    background-image: url('../images/bg.jpg');
+    height: 150px;
+    background-size: cover;
+}
+
+.about .panel-profile {
+    margin-bottom: 0 !important;
+}
+
+.about .panel-profile .panel-title {
+    margin-bottom: 5px;
+}
+
+.about .panel-profile-img {
+    max-width: 100px;
+    margin-top: -70px;
+    margin-bottom: 5px;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.about .paragraph {
+    margin-bottom: 15px !important;
+}
+

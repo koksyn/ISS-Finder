@@ -1,0 +1,8 @@
+{
+  "apiMaxTimeout": 10.0,
+
+  "issApiUrl": "https://api.wheretheiss.at/v1",
+
+  "googleMapsUrl": "https://maps.googleapis.com/maps/api/geocode/json",
+  "googleMapsApiKey": "AIzaSyD9yAqdJz7ReKCoJmdU03wz3s-5hxLovWM"
+}

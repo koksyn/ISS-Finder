@@ -1,0 +1,12 @@
+[
+  {
+    "pattern": "/",
+    "classPrefix": "Iss",
+    "methodPrefix": "index"
+  },
+  {
+    "pattern": "/contact",
+    "classPrefix": "Contact",
+    "methodPrefix": "index"
+  }
+]
