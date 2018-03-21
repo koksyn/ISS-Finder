@@ -1,7 +1,16 @@
 ISS Finder
 =======
-Zadanie rekrutacyjne:
--------
+
+## English
+
+Recruitment task (from July 2017), which finally became a **simple MVC framework**, written in pure **PHP7**. 
+
+This is a demo app builded on this framework. It finds ISS space station geolocation, then displays it on Google Maps.
+
+## Polish (original)
+
+### Zadanie rekrutacyjne:
+
     Zadanie:
     Stwórz prostą stronę internetową pokazującą użytkownikowi w jakiej części świata znajduje
     się obecnie Stacja Kosmiczna ISS.
@@ -25,8 +34,8 @@ Zadanie rekrutacyjne:
     lecz na tym by zastosować najlepsze znane Ci praktyki
     Powodzenia!
 
-Środowisko uruchomieniowe:
--------
+### Środowisko uruchomieniowe:
+
 Wymagane:
  - Apache 2.4.25
      - z włączonym rozszerzeniem 'mod_rewrite'
@@ -37,16 +46,16 @@ Wymagane:
 Opcjonalnie:
  - Composer
  
-Aplikacja startuje w pliku ;index.php;, ale nie potrzeba podawać nazwy,
+Aplikacja startuje w pliku `index.php`, ale nie potrzeba podawać nazwy,
 .htaccess przekieruje ściezki np. '/' i '/nazwa-strony' na ten plik automatycznie
  
-Użyte zewnętrzne biblioteki (importowane przez Composer):
--------
+### Użyte zewnętrzne biblioteki (importowane przez Composer, tylko i wyłącznie w logice biznesowej aplikacji):
+
 - guzzlehttp/guzzle: 6.2.x
     > użyty do komunikacji z REST API Google'a oraz WhereTheIss.at
 
-Opis:
--------
+### Opis:
+
 Z góry zaznaczam, że zgodnie z zadaniem nie używałem żadnego gotowego frameworka 
 (tak jakby kogoś zmyliła struktura folderów).
 Technika miała być OOP + MVC, więc oczywiście rozdzieliłem te warstwy od siebie
@@ -78,8 +87,8 @@ więc i to obsłużyłem, aby użytkownik też miał tego świadomość.
 
 Przy okazji wyświetlana jest też mapka z Google Maps z aktualną pozycją ISS.
 
-Struktura folderów/obiektów i ich role
--------
+### Struktura folderów/obiektów i ich role
+
 Assets
 > Przechowywane są tutaj tzw. zasoby aplikacji w postaci obrazków, plików CSS i JS
 
